@@ -48,7 +48,7 @@ Both networks are trained simultaneously in an adversarial manner, improving the
 
 - Generator: Converts noise into synthetic MRI images  
 - Discriminator: Classifies images as real or fake  
-<img src="Deliverables/architecture.png" width="500"/>
+<img src="Deliverables/architecture.png" width="600"/>
 
 
 ### Streamlit Based
@@ -60,7 +60,7 @@ The system uses a DCGAN + CNN + Grad-CAM pipeline for brain tumor detection.
 - A CNN classifier is trained to detect tumor, normal, or suspicious cases  
 - Grad-CAM highlights important regions used by the model  
 - Results are shown using a Streamlit interface with prediction and heatmap  
-<img src="Deliverables/arch2.png" width="500"/>
+<img src="Deliverables/arch2.png" width="600"/>
 ---
 
 ## ⚙️ Data Preprocessing
@@ -222,7 +222,7 @@ The performance dashboard presents key evaluation metrics of the model:
 - Accuracy Gain: Improvement achieved using GAN augmentation  
 
 The dashboard visually compares baseline and GAN-augmented models, demonstrating that synthetic data improves performance and robustness.
-<img src="streamlit_outputs/performance.png" width="700"/>
+<img src="streamlit_outputs/performance.png" width="600"/>
 
 
 ###  Loss and Evaluation Graphs
@@ -233,7 +233,7 @@ The application also includes visual graphs such as:
 - Confusion matrix showing classification results  
 
 These graphs help in analyzing model performance and validating training effectiveness.
-<img src="streamlit_outputs/Confusion.png" width="700"/>
+<img src="streamlit_outputs/Confusion.png" width="600"/>
 
 ---
 
