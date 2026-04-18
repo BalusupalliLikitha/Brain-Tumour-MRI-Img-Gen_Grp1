@@ -50,14 +50,17 @@ Dataset contains brain MRI images with two classes:
 - Improved image quality and realism  
 
 ---
+## 📁 Project Structure
 
-##  Project Structure
+```
+Global-Challenge/
+│
 ├── src/
-│ ├── train.py
-│ ├── evaluation_pipeline.py
-│ ├── model.py
-│ ├── generator.py
-│ ├── data.py
+│   ├── train.py
+│   ├── evaluation_pipeline.py
+│   ├── model.py
+│   ├── generator.py
+│   └── data.py
 │
 ├── models/
 ├── generated_images/
@@ -66,8 +69,7 @@ Dataset contains brain MRI images with two classes:
 ├── Brain_Tumor_Dataset/
 ├── requirements.txt
 └── README.md
-
---- 
+```
 
 ## Model Evaluation
 
