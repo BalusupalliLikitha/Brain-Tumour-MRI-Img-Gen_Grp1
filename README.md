@@ -1,7 +1,8 @@
-#  Brain Tumor MRI Image Generation using DCGAN
+#  BRAIN TUMOR MRI IMAGE GENERATION USING DCGAN
+## GENERATIVE ADVERSARIAL NETWORKS FOR IMAGES
 
-## 👥 Team Members
-
+## Team Members
+### Group-1
 | ID Number | Name |
 |----------|------|
 | 2300032061 | Balusupalli Likitha |
@@ -116,7 +117,6 @@ for epoch in range(epochs):
         d_loss.backward()
         optimizer_D.step()
 ```
-
 ## 🔹 2. Loss Curve
 
 The loss curve represents the learning progress of both Generator and Discriminator during training. The Generator loss indicates how well it is able to fool the Discriminator, while the Discriminator loss reflects its ability to correctly classify real and fake images. A stable GAN training is observed when both losses gradually stabilize instead of diverging. Fluctuations are normal in GAN training due to its adversarial nature, but balanced behavior indicates proper learning.
@@ -177,7 +177,7 @@ The output is a heatmap where:
 
 This provides transparency and helps validate whether the model is focusing on medically relevant regions.
 
-### Grad-CAM Implementation (app.py)
+### (app.py)
 
 ```python
 def get_gradcam(model, img_array):
@@ -198,6 +198,8 @@ def get_gradcam(model, img_array):
     heatmap = np.maximum(heatmap, 0) / np.max(heatmap)
     return heatmap
 ```
+<img src="streamlit_outputs/Main.png" width="600"/>
+
 Visual Benefit: Red regions in the final heatmap indicate the specific pixels that influenced the "Tumor" prediction.
 ```
 # --- REFINED DIAGNOSTIC LOGIC ---
@@ -209,6 +211,7 @@ elif raw_logit > 9.5:
 else:
     label, color = "Normal", "green"
 ```
+<img src="streamlit_outputs/Gradcam.png" width="600"/>
 ###  Performance Dashboard
 
 The performance dashboard presents key evaluation metrics of the model:
@@ -219,6 +222,7 @@ The performance dashboard presents key evaluation metrics of the model:
 - Accuracy Gain: Improvement achieved using GAN augmentation  
 
 The dashboard visually compares baseline and GAN-augmented models, demonstrating that synthetic data improves performance and robustness.
+<img src="streamlit_outputs/performance.png" width="700"/>
 
 
 ###  Loss and Evaluation Graphs
@@ -229,6 +233,7 @@ The application also includes visual graphs such as:
 - Confusion matrix showing classification results  
 
 These graphs help in analyzing model performance and validating training effectiveness.
+<img src="streamlit_outputs/Confusion.png" width="700"/>
 
 ---
 
@@ -282,7 +287,10 @@ Once the browser window opens at localhost:8501:
 - Upload MRI images.
 - The app uses the model you saved in Step 1 to calculate the Raw Intensity.
 - Grad-CAM highlights exactly where the model is "looking" to make its decision.
- 
+- 
+<img src="streamlit_outputs/input generated.png" width="500"/>
+<img src="streamlit_outputs/Gradcam_gen.png" width="500"/>
+
 ### Path B: Performance Metrics
 - Select "Performance Dashboard" from the sidebar.
 - The app pulls the data from your training logs.
