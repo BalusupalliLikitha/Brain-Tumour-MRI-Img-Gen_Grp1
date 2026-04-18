@@ -1,5 +1,9 @@
 # Brain Tumour MRI Image Generation using DCGAN
+## Project Team
 
+**Team Members:** Likitha, Lathif, Navadeep, Sameer, Hari Priya, Sruthika  
+
+---
 ##  Overview
 This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) to generate synthetic brain MRI images for data augmentation and improved medical AI performance.
 
