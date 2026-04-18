@@ -1,0 +1,14 @@
+# Ignore system files
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# Ignore logs
+*.txt
+
+# Ignore large unwanted files
+*.zip
+
+# Optional (if you want lighter repo)
+# Brain_Tumor_Dataset/
