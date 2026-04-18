@@ -10,7 +10,7 @@
 | 2300030055 | Avanigadda Navadeep |
 | 2300080233 | Nittala SPL Hari Priya |
 | 2300030224 | Grandhi Sruthika |
-| 2300080081 | Shaik Sameer |
+| 2300080081 | Shaik Sameer  |
 
 ---
 
