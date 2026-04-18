@@ -1,8 +1,8 @@
 # GAN FOR IMAGES - Global Challenge
 # Brain Tumour MRI Image Generation using DCGAN
-## Project Team
+## Project Team [Section 55 Group-1]
 
-**Team Members:** Likitha, Lathif, Navadeep, Sameer, Hari Priya, Sruthika  
+**Team Members:** B.Likitha, MD Lathif, Navadeep, Sameer, Hari Priya, Sruthika  
 
 ---
 ##  Overview
