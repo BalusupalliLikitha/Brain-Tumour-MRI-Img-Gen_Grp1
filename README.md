@@ -1,3 +1,4 @@
+# GAN FOR IMAGES - Global Challenge
 # Brain Tumour MRI Image Generation using DCGAN
 ## Project Team
 
