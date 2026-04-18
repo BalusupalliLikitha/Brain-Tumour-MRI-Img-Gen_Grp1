@@ -39,6 +39,7 @@ The dataset used in this project consists of brain MRI images obtained from Kagg
 The dataset is organized into class-based folders, making it suitable for supervised learning. Each image represents grayscale intensity variations of brain tissues. Tumor regions appear as irregular patterns within the scan.
 Due to limited dataset size, there is a need for generating additional synthetic data, which is achieved using GANs in this project.
 
+---
 
 ## Architecture Diagram
 
