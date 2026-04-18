@@ -27,7 +27,9 @@ Dataset contains brain MRI images with two classes:
 
 ## 🧠 Architecture Diagram
 
-![GAN Architecture](architecture.png)
+<p align="center">
+  <img src="architecture.png" width="500"/>
+</p>
 
 ### Explanation
 - **Generator** → Converts random noise into synthetic MRI images  
